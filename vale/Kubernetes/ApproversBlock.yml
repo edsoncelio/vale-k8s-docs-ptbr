@@ -1,0 +1,10 @@
+extends: existence
+level: warning
+scope: raw
+link: https://kubernetes.io/docs/contribute/style/style-guide/#use-upper-camel-case-for-api-objects
+message: Remova o block '%s'.
+
+ignorecase: false
+tokens:
+    - approvers
+limit: 1
